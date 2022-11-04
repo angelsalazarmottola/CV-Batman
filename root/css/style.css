@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    background-color:#e6e6e6;
+    text-align: center;
+    margin-bottom:80px;
+}
+
+main {
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.title {
+    font-family:'Times New Roman', Times, serif;
+    background-color:#C4C4C4;
+    color:#005677;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 15px;
+}
+
+#principal-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100%;
+    margin: auto;
+    padding:10px;
+}
+
+i, .year {
+    font-weight: bold;
+}
+
+.container {
+    display:flex;
+    margin-left:15px;
+}
+
+.footer {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#005677;
+    color: #fff;
+    margin: auto;
+}
+
+.copyright {
+    display: inline;
+    font-size: 20px;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+}
+
+.social-media {
+    display: inline-block;
+    font-weight: 700;
+    margin: auto;
+    padding:5px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-media i:hover {
+    transition-duration: 1s;
+    opacity: 0.3;
+    transform: scale(1.5);  
+}
